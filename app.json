@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "timer-app",
+    "slug": "timer-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./sources/assets/icon.png",
+    "splash": {
+      "image": "./sources/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./sources/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./sources/assets/favicon.png"
+    }
+  }
+}
